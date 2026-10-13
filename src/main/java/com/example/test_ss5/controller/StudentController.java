@@ -23,7 +23,7 @@ public class StudentController {
         return new ResponseEntity<>(
                 new ApiDataResponse<>(
                         true,
-                        "Lay danh sach student thanh cong",
+                        "Lay danh sach student thanh cong ok nhe",
                         studentService.getStudents(),
                         HttpStatus.OK
                 ), HttpStatus.OK
